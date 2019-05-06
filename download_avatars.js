@@ -7,7 +7,7 @@ function getRepoContributors(repoOwner, repoName, cb) {
     var options = {
       url: "https://api.github.com/repos/" + repoOwner + "/" + repoName + "/contributors",
       headers: {
-        'User-Agent': 'request'
+        'User-Agent': 'request',
         'Authorization': "c322b20d30129b4971271ffb24eb89c963c986eb"
       }
     };
